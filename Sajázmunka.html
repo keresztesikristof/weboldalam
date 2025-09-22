@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="hu">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Saját weboldalom</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      body {
+        color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <h2>Tölsd ki az űrlapot!</h2>
+      <hr />
+      <label for="v-nev">Add meg a Vezetékneved:</label>
+      <input type="text" id="v-nev" name="v-nev" placeholder="Vezetéknév..." />
+      <br />
+      <br />
+      <label for="k-nev">Add meg a Keresztneved:</label>
+      <input
+        type="text"
+        id="k-nev"
+        name="k-nev"
+        placeholder="Keresztesnév..."
+      />
+      <br />
+      <br />
+    </form>
+    <section>
+      <label for="nap">Mikor születél?:</label>
+      <input type="date" name="nap" id="nap" />
+    </section>
+    <br />
+    <section>
+      <label for="email">Email címed:</label>
+      <input type="email" placeholder="Email.." name="email" id="email" />
+    </section>
+    <br />
+    <section>
+      <input type="submit" value="Beküldés" />
+    </section>
+  </body>
+</html>
