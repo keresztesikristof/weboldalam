@@ -1,0 +1,13 @@
+body {
+    background-color: blanchedalmond;
+}
+
+p {
+    text-align: justify; 
+    padding: 5px 10px 15px 20px; 
+    border: 4px solid black; 
+    margin: 20px; 
+
+h1,h2,p {
+    color: brown;
+}
